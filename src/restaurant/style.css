@@ -1,14 +1,20 @@
+
 .container{
     display:grid;
-    border:2px solid black;
+    /* border:2px solid black; */
     row-gap:2vh;
     padding:2vw;
     background-color:	rgba(255, 255, 255, 0.849);
+    background-image: url('./background.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    /* height:100vh; */
     }
     .nav-container{
     /* border:2px solid blue; */
     display:flex;
     justify-content: center;
+    margin-bottom: 4vh;
     }
     .nav-button{
     margin-left: 3px;
@@ -39,20 +45,47 @@
         border: 2px solid rgb(4, 153, 103);
         width:21vw;
         height:60vh;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
         /* display:flex; */
         /* justify-content: center; */
         align-items: center;
-        background-color:#f8efef;
+        background-color:#ebe5e5ea;
         border-radius: 0.6vw;
-        box-shadow: 4px 4px 2px grey;
+        box-shadow: 4px 4px 2px rgb(128, 128, 128);
+        /* padding-left: 5px; */
+        overflow: hidden;
     }
 
     .card > LazyLoadImage{
-        height:70%;
-        width:90%;
+        height:5vh;
+        width:5vw;
         /* object-fit:cover; */
     }
-    .card .circle{
-        color:#b2b3c3;
+    .card >h4{
+        font-size: larger;
     }
+    .card .circle{
+        color:white;
+        font-size: 1.5vw;
+        border-radius: 20px;
+        border: 2px solid rgba(247, 241, 241, 0.993);
+        width:2.5vw;
+        text-align: center;
+        background-color: grey;
+       
+    }
+  
+    .card .horizontal-line{
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 1px;
+}
+.lazyLoadImage{
+    width:21vw; height:20vh; object-fit: cover;
+    /* border:2px solid black; */
+}
+
+@media only screen and (max-width:800px){
+    .card{
+        height:30vh;
+    }
+}

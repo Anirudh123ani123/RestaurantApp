@@ -1,7 +1,9 @@
 import Restaurant from "./restaurant/Restaurant";
+import './App.css'
 function App() {
+  console.log("size=",window.innerWidth);
   return (
-    <div >
+    <div className="app">
       <Restaurant/>
     </div>
   );

@@ -2,7 +2,7 @@ export  const Menu= [
     {
         id:1,
         image:"images/B1.jpg",
-        name:"breakfast1",
+        name:"Breakfast1",
         category:"breakfast",
         price:"",
         description:""
@@ -10,7 +10,7 @@ export  const Menu= [
     {
         id:2,
         image:"images/B2.jpg",
-        name:"breakfast2",
+        name:"Breakfast2",
         category:"breakfast",
         price:"",
         description:""
@@ -19,22 +19,22 @@ export  const Menu= [
         id:3,
         image:"images/B3.jpg",
         name:"breakfast3",
-        category:"breakfast",
+        category:"Breakfast",
         price:"",
         description:""
     },
     {
         id:4,
         image:"images/B4.jpg",
-        name:"breakfast4",
-        category:"breakfast",
+        name:"Breakfast4",
+        category:"Breakfast",
         price:"",
         description:""
     },
     {
         id:5,
         image:"images/L1.jpg",
-        name:"",
+        name:"Lunch1",
         category:"lunch",
         price:"",
         description:""
@@ -42,7 +42,7 @@ export  const Menu= [
     {
         id:6,
         image:"images/L2.jpg",
-        name:"",
+        name:"Lunch2",
         category:"lunch",
         price:"",
         description:""
@@ -50,7 +50,7 @@ export  const Menu= [
     {
         id:7,
         image:"images/L3.jpg",
-        name:"",
+        name:"Lunch3",
         category:"lunch",
         price:"",
         description:""
@@ -58,7 +58,7 @@ export  const Menu= [
     {
         id:8,
         image:"images/L4.jpg",
-        name:"",
+        name:"Lunch4",
         category:"lunch",
         price:"",
         description:""
@@ -66,7 +66,7 @@ export  const Menu= [
     {
         id:9,
         image:"images/D1.jpg",
-        name:"",
+        name:"Dinner1",
         category:"dinner",
         price:"",
         description:""
@@ -74,7 +74,7 @@ export  const Menu= [
     {
         id:10,
         image:"images/D2.jpg",
-        name:"",
+        name:"Dinner2",
         category:"dinner",
         price:"",
         description:""
@@ -82,7 +82,7 @@ export  const Menu= [
     {
         id:11,
         image:"images/D3.jpg",
-        name:"",
+        name:"Dinner3",
         category:"dinner",
         price:"",
         description:""
@@ -90,7 +90,7 @@ export  const Menu= [
     {
         id:12,
         image:"images/D4.jpg",
-        name:"",
+        name:"Dinner4",
         category:"dinner",
         price:"",
         description:""
