@@ -4,10 +4,8 @@
     /* border:2px solid black; */
     row-gap:2vh;
     padding:2vw;
-    background-color:	rgba(255, 255, 255, 0.849);
-    background-image: url('./background.jpg');
-    background-repeat: repeat;
-    background-size: cover;
+    
+    
     /* height:100vh; */
     }
     .nav-container{
@@ -15,17 +13,21 @@
     display:flex;
     justify-content: center;
     margin-bottom: 4vh;
+   margin-left:-8vw;
     }
     .nav-button{
     margin-left: 3px;
     width:15vw;
-    height:5vh;
+    height:6vh;
     border:2px solid rgba(5, 158, 218, 0.952);
     border-radius: 4px;
     background-color: rgba(236, 226, 226, 0.884);
     color:rgb(0, 0, 0);
-    font-weight: 400;
     box-shadow: 4px 4px 2px grey;
+
+    font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
     }
     .image-container{
     /* border:2px solid rgb(4, 5, 4); */
@@ -34,7 +36,7 @@
     }
 
 
-    .image-container{
+    .center-container{
         display:grid;
         grid-template-columns: auto auto auto;
         column-gap: 5px;
@@ -74,7 +76,12 @@
         background-color: grey;
        
     }
-  
+    .card p{
+        font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+    }
+
     .card .horizontal-line{
     border:2px solid rgb(255, 255, 255);
     border-radius: 1px;

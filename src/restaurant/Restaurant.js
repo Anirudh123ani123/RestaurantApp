@@ -33,7 +33,7 @@ const Restaurant = () => {
             );
           })}
         </div>
-        <div className="image-container" >
+        <div className="center-container" >
           
           {
             itemsTodisplay.map((card)=>{
