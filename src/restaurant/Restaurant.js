@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
+import Navbutton from "./Navbutton";
 import { Menu } from "./apiData";
 import "./style.css";
 const Restaurant = () => {
@@ -50,11 +51,4 @@ const Restaurant = () => {
   );
 };
 
-const Navbutton = ({ title,filterCategory }) => {
-  return (
-    <>
-      <button className="nav-button" onDoubleClick={()=>filterCategory(title)} >{title}</button>
-    </>
-  );
-};
 export default Restaurant;

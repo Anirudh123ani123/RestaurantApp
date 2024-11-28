@@ -56,6 +56,9 @@
         box-shadow: 4px 4px 2px rgb(128, 128, 128);
         /* padding-left: 5px; */
         overflow: hidden;
+        text-align:justify;
+        padding-left: 1vw;
+        padding-right:1vw;
     }
 
     .card > LazyLoadImage{
