@@ -1,12 +1,12 @@
 
 .container{
-    display:grid;
+    /* display:grid; */
     /* border:2px solid black; */
-    row-gap:2vh;
+    /* row-gap:2vh; */
     padding:2vw;
     
     
-    /* height:100vh; */
+    height:90vh;
     }
     .nav-container{
     /* border:2px solid blue; */
@@ -37,10 +37,10 @@
 
 
     .center-container{
-        display:grid;
+        /* display:grid;
         grid-template-columns: auto auto auto;
         column-gap: 5px;
-        row-gap: 5vh;
+        row-gap: 5vh; */
     }
 
     .card{
@@ -56,7 +56,7 @@
         box-shadow: 4px 4px 2px rgb(128, 128, 128);
         /* padding-left: 5px; */
         overflow: hidden;
-        text-align:justify;
+        text-align:justify;   
         padding-left: 1vw;
         padding-right:1vw;
     }

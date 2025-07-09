@@ -1,51 +1,29 @@
 import React, { useState } from "react";
-import Card from "./Card";
-import Navbutton from "./Navbutton";
+import Navbar from "./Navbar";
+import Cardgrid from "./Cardgrid";
 import { Menu } from "./apiData";
 import "./style.css";
 const Restaurant = () => {
-    let[itemsTodisplay,setDisplayItems]=useState(Menu);
+  let [itemsTodisplay, setDisplayItems] = useState(Menu);
   let category = [...new Set(Menu.map((card) => card.category)), "All"];
 
-
-  const filterCategory=(category)=>{
-    if(category=="All"){
-        setDisplayItems(Menu);
-        return; 
+  const filterCategory = (category) => {
+    if (category == "All") {
+      setDisplayItems(Menu);
+      return;
     }
-    let filteredItems=Menu.filter((card)=>{
-        return card.category==category
+    let filteredItems = Menu.filter((card) => {
+      return card.category == category;
     });
-    setDisplayItems([...filteredItems])
-  }
-
+    setDisplayItems([...filteredItems]);
+  };
 
   console.log("category:", category);
   return (
     <>
       <div className="container">
-        <div className="nav-container">
-          {category.map((title) => {
-            let id=new Date().getTime().toString();
-            return (
-              <>
-                <Navbutton title={title} filterCategory={filterCategory} key={id}/>
-              </>
-            );
-          })}
-        </div>
-        <div className="center-container" >
-          
-          {
-            itemsTodisplay.map((card)=>{
-              let id=new Date().getTime().toString()
-                return<>
-                <Card card={card} key={id}/>
-                </>
-            })
-          }
-          
-        </div>
+        <Navbar category={category} filterCategory={filterCategory} />
+        <Cardgrid itemsTodisplay={itemsTodisplay} />
       </div>
     </>
   );
