@@ -46,10 +46,11 @@
     .card{
         border: 2px solid rgb(4, 153, 103);
         width:21vw;
-        height:60vh;
+        /* height:60vh; */
         /* box-sizing: border-box; */
         /* display:flex; */
         /* justify-content: center; */
+        height:90%;
         align-items: center;
         background-color:#ebe5e5ea;
         border-radius: 0.6vw;

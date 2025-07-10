@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import PlaceholderImage from "./small-image.jpg";
+
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "./style.css";
 import "../index.css";
@@ -14,8 +15,7 @@ const Card = ({ card }) => {
       <hr className="horizontal-line" />
 
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-        natus a, qui dolorem accusamus officia?
+      {card.description}
       </p>
       <hr className="horizontal-line" />
       <LazyLoadImage
